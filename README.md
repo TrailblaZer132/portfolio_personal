@@ -1,8 +1,8 @@
-Please install the folowing libraries/ dependencies for the efficient working of the website in a local enviroment:
+Please install the folowing libraries/ dependencies for the efficient working of the website in a local enviroment:</br>
 
-SASS:               npm install -g sass
-Material UI:        npm install @material-ui/core
-Material UI icons:  npm install @material-ui/icons
-iTypedJS:           npm install ityped
-emailJS:            npm i emailjs-com --save
-Loader:             npm install --save react-spinners
+SASS:               npm install -g sass</br>
+Material UI:        npm install @material-ui/core</br>
+Material UI icons:  npm install @material-ui/icons</br>
+iTypedJS:           npm install ityped</br>
+emailJS:            npm i emailjs-com --save</br>
+Loader:             npm install --save react-spinners</br>
