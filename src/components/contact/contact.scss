@@ -3,6 +3,7 @@
 .contact{
     background-color: azure;
     display: flex;
+    
 
     @include tablet{
                 
@@ -83,20 +84,22 @@
 
         textarea{
             width: 400px;
-            height: 100px;
+            height: 200px;
             padding: 20px 0 0 20px;
             font-size: 20px;
             border-radius: 25px;
             border: none;
             color: rgb(129, 129, 129);
+            transition: all 0.2s ease;
+            -webkit-transition:all 0.2s ease;
             @include tablet{
                 margin: 20px 0;
                 width: 200px;
-                height: 100px;
+                height: 90px;
             }@include mobile{
                 margin: 20px 0;
                 width: 200px;
-                height: 100px;
+                height: 50px;
             }
             
         }
