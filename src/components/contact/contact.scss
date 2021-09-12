@@ -18,6 +18,7 @@
         flex: 1;
         overflow: hidden;
         @include flexCenter(center);
+        flex-direction: column;
 
         img{
             height: 65%;
