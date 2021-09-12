@@ -5,4 +5,3 @@ Material UI:        npm install @material-ui/core</br>
 Material UI icons:  npm install @material-ui/icons</br>
 iTypedJS:           npm install ityped</br>
 emailJS:            npm i emailjs-com --save</br>
-Loader:             npm install --save react-spinners</br>
