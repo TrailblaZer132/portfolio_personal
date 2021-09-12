@@ -18,39 +18,9 @@
         flex: 1;
         overflow: hidden;
         @include flexCenter(center);
-        flex-direction: column;
 
         img{
             height: 65%;
-            
-        }
-
-
-        .social{
-            
-            @include flexCenter(center);
-            padding:10px 0 0 40px;
-            @include tablet{
-                
-                overflow: hidden;
-            }@include mobile{
-                
-                overflow: hidden;
-            }
-
-            
-            
-            
-            img{
-                width: 20%;
-                height: 40%;
-
-                &:hover{
-                    transform: rotate(10deg);
-
-                }
-                
-            }
             
         }
     }
@@ -113,7 +83,7 @@
 
         textarea{
             width: 400px;
-            height: 200px;
+            height: 100px;
             padding: 20px 0 0 20px;
             font-size: 20px;
             border-radius: 25px;
@@ -152,7 +122,33 @@
             }
         }
 
-        
+        .social{
+            
+            @include flexCenter(center);
+            padding:10px 0 0 40px;
+            @include tablet{
+                
+                overflow: hidden;
+            }@include mobile{
+                
+                overflow: hidden;
+            }
+
+            
+            
+            
+            img{
+                width: 40%;
+                height: 80%;
+
+                &:hover{
+                    transform: rotate(10deg);
+
+                }
+                
+            }
+            
+        }
 
 
         span{

@@ -28,13 +28,6 @@ export default function Contact() {
         <div className="contact" id="contact">
             <div className="left">
                 <img src="assets/contactMe.png" alt="" />
-                <div className="social">
-                        <a href="https://github.com/TrailblaZer132" target="#blank"><img src="assets/gh.png" alt="" /></a>
-                        <a href="https://www.linkedin.com/in/udit-nath-b54305173/" target="#blank"><img src="assets/li.png" alt="" /></a>
-                        <a href="https://www.facebook.com/TrailblaZer132/" target="#blank"><img src="assets/fb.png" alt="" /></a>
-                        <a href="https://www.instagram.com/udit.nath/" target="#blank"><img src="assets/ig.png" alt="" /></a>
-                        <a href="https://drive.google.com/drive/u/4/folders/1PVSqpI8CYIgJJb-5M3DWepJLxU_JJ-MU" target="#blank"><img src="assets/dr.png" alt="" /></a>
-                </div>
             </div>
             <div className="right">
                 <h2>Contact</h2>
@@ -43,7 +36,13 @@ export default function Contact() {
                     <textarea placeholder="Message" name="message"></textarea>
                     <button type="submit" >Send</button>
                     {msg && <span>Thankyou. I'll reply to you soon 😇</span>}
-                    
+                    <div className="social">
+                        <a href="https://github.com/TrailblaZer132" target="#blank"><img src="assets/gh.png" alt="" /></a>
+                        <a href="https://www.linkedin.com/in/udit-nath-b54305173/" target="#blank"><img src="assets/li.png" alt="" /></a>
+                        <a href="https://www.facebook.com/TrailblaZer132/" target="#blank"><img src="assets/fb.png" alt="" /></a>
+                        <a href="https://www.instagram.com/udit.nath/" target="#blank"><img src="assets/ig.png" alt="" /></a>
+                        <a href="https://drive.google.com/drive/u/4/folders/1PVSqpI8CYIgJJb-5M3DWepJLxU_JJ-MU" target="#blank"><img src="assets/dr.png" alt="" /></a>
+                    </div>
                     
                 </form>
             </div>
