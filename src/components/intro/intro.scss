@@ -1,0 +1,154 @@
+@import "../../global.scss";
+
+
+.intro{
+    background-color: azure;
+    display: flex;
+
+    @include tablet{
+                
+        flex-direction: column;
+        align-items: center;
+    }@include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+        
+
+        .imgContainer{
+            width: 900px;
+            height: 900px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            float:right;
+
+            @include tablet{
+                
+                align-items: flex-start;
+            }@include mobile{
+                padding-top: 10%;
+                align-items: flex-start;
+            }
+            
+
+            img{
+                width: 90%;
+                @include tablet{
+                
+                    height: 40%;
+                    width: 48%;
+                }@include mobile{
+                    height: 35%;
+                    width: 42%;
+                }
+                
+            }
+        }
+    }
+
+    .right{
+        flex: 0.5;
+        position: relative;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            @include tablet{
+                
+                padding-left: 0;
+            }@include mobile{
+                
+                padding-left: 0;
+            }
+            
+            
+
+
+            h1{
+                font-size: 70px;
+                margin: 10px 0;
+                @include tablet{
+                    margin: 0;
+                    font-size: 60px;
+                }@include mobile{
+                    margin: 0;
+                    font-size: 40px;
+                }
+                
+    
+            }
+            h2{
+                font-size: 40px;
+                
+                @include tablet{
+                    
+                    font-size: 30px;
+                }
+                @include mobile{
+                    
+                    font-size: 25px;
+                }
+                
+            }
+            h3{
+                font-size: 35px;
+                
+
+                @include tablet{
+                    
+                    font-size: 25px;
+                }
+                @include mobile{
+                    
+                    font-size: 15px;
+                }
+                span{
+                    font-size: 30px;
+                    color: #2c0688;
+                    
+                    @include tablet{
+                    
+                        font-size: 25px;
+                    }
+                    @include mobile{
+                    
+                        font-size: 15px;
+                    }
+                }
+                
+            }
+        }
+        
+        
+
+        .down{
+            font-size: 70px;
+            animation: arrowBlink 2s infinite ease;
+            position:absolute;
+            bottom:20px;     
+            left: 40%;      
+            @include mobile{
+                    
+                font-size: 30px;
+                bottom:50px;
+            } 
+        }
+
+        @keyframes arrowBlink {
+            from { opacity: 1.0; }
+            50% { opacity: 0; }
+            to { opacity: 1.0; }
+        }  
+        
+    }
+}
