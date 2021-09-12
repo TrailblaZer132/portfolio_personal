@@ -23,6 +23,35 @@
             height: 65%;
             
         }
+
+
+        .social{
+            
+            @include flexCenter(center);
+            padding:10px 0 0 40px;
+            @include tablet{
+                
+                overflow: hidden;
+            }@include mobile{
+                
+                overflow: hidden;
+            }
+
+            
+            
+            
+            img{
+                width: 40%;
+                height: 80%;
+
+                &:hover{
+                    transform: rotate(10deg);
+
+                }
+                
+            }
+            
+        }
     }
 
     .right{
@@ -122,33 +151,7 @@
             }
         }
 
-        .social{
-            
-            @include flexCenter(center);
-            padding:10px 0 0 40px;
-            @include tablet{
-                
-                overflow: hidden;
-            }@include mobile{
-                
-                overflow: hidden;
-            }
-
-            
-            
-            
-            img{
-                width: 40%;
-                height: 80%;
-
-                &:hover{
-                    transform: rotate(10deg);
-
-                }
-                
-            }
-            
-        }
+        
 
 
         span{
