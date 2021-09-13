@@ -24,10 +24,6 @@ export default function Portfolio() {
             id:"designs",
             title:"Designs",
         },
-        // {
-        //     id:"arduino",
-        //     title:"Arduino Projects",
-        // },
     ]
 
 
@@ -44,9 +40,6 @@ export default function Portfolio() {
             case "designs":
                 setData(designsPortfolio);
                 break;
-            // case "arduino":
-            //     setData(arduinoPortfolio);
-            //     break;
             default:
                 setData(webPortfolio);
         }
