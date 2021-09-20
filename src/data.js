@@ -133,7 +133,7 @@ export const designsPortfolio=[
         id:1,
         title:"Flat Character Design",
         img: "assets/d5.png",
-        url:"https://drive.google.com/drive/folders/1O7MnmVfCltXuw7iHypIWgwlzId7693dR?usp=sharing"
+        url:"https://drive.google.com/drive/folders/185Gst4jiXJneDQo-yMgQDmqd-9Qz1Cx9?usp=sharing"
     },
     {
         id:1,
